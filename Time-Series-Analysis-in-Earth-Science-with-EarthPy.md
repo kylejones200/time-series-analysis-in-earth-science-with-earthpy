@@ -4,9 +4,9 @@
 
 Time series analysis plays a vital role in Earth science, helping researchers analyze phenomena like temperature changes, rainfall patterns, glacier melting, and more. By studying temporal patterns in Earth science data, we can better understand environmental changes, predict future trends, and guide policy decisions.
 
-**EarthPy** is a Python package designed for working with spatial data in Earth science. It provides functionalities for handling raster and vector data, analyzing temporal patterns, and visualizing environmental changes. EarthPy integrates well with other libraries such as Pandas, Matplotlib, and NumPy, making it a versatile tool for time series analysis.
+EarthPy is a Python package designed for working with spatial data in Earth science. It provides functionalities for handling raster and vector data, analyzing temporal patterns, and visualizing environmental changes. EarthPy integrates well with other libraries such as Pandas, Matplotlib, and NumPy, making it a versatile tool for time series analysis.
 
-⚠️ **Note**: This article demonstrates concepts using standard Python libraries. EarthPy requires specific geospatial dependencies. Install with:
+⚠️ Note: This article demonstrates concepts using standard Python libraries. EarthPy requires specific geospatial dependencies. Install with:
 ```bash
 pip install earthpy
 ```
@@ -151,22 +151,22 @@ Forecasting allows us to project trends and prepare for future environmental cha
 
 ## Data Requirements for Production
 
-⚠️ **Note**: The code examples above require actual Earth science data. For production use:
+⚠️ Note: The code examples above require actual Earth science data. For production use:
 
 ### Land Surface Temperature Data
-- **MODIS LST Product**: https://modis.gsfc.nasa.gov/
-- **Landsat Thermal**: https://landsat.gsfc.nasa.gov/
+- MODIS LST Product: https://modis.gsfc.nasa.gov/
+- Landsat Thermal: https://landsat.gsfc.nasa.gov/
 - Expected format: CSV with columns `date`, `temperature`, `location`
 
 ### Satellite Imagery
-- **NASA EarthData**: https://earthdata.nasa.gov/
-- **Sentinel Hub**: https://www.sentinel-hub.com/
-- **Google Earth Engine**: https://earthengine.google.com/
+- NASA EarthData: https://earthdata.nasa.gov/
+- Sentinel Hub: https://www.sentinel-hub.com/
+- Google Earth Engine: https://earthengine.google.com/
 
 ### Climate Data
-- **NOAA Climate Data**: https://www.ncdc.noaa.gov/
-- **ERA5 Reanalysis**: https://www.ecmwf.int/
-- **PRISM**: https://prism.oregonstate.edu/
+- NOAA Climate Data: https://www.ncdc.noaa.gov/
+- ERA5 Reanalysis: https://www.ecmwf.int/
+- PRISM: https://prism.oregonstate.edu/
 
 ## Applications of EarthPy for Time Series
 
@@ -209,27 +209,27 @@ Forecasting allows us to project trends and prepare for future environmental cha
 
 ## Advantages of EarthPy
 
-1. **Earth Science Focus**: Built specifically for Earth science workflows
-2. **Simplified Raster Operations**: Easy raster stacking and band math
-3. **Visualization**: Publication-quality plots out of the box
-4. **Educational**: Great for teaching and learning
+1. Earth Science Focus: Built specifically for Earth science workflows
+2. Simplified Raster Operations: Easy raster stacking and band math
+3. Visualization: Publication-quality plots out of the box
+4. Educational: Great for teaching and learning
 
 ## Limitations
 
-1. **Specialized**: Primarily for Earth science use cases
-2. **Dependencies**: Requires GDAL and other geospatial libraries
-3. **Learning Curve**: Geospatial concepts can be challenging
-4. **Data Management**: Large raster files require substantial storage
+1. Specialized: Primarily for Earth science use cases
+2. Dependencies: Requires GDAL and other geospatial libraries
+3. Learning Curve: Geospatial concepts can be challenging
+4. Data Management: Large raster files require substantial storage
 
 ## Comparison with Other Tools
 
 | Tool | Best For | Time Series Support |
 |------|----------|-------------------|
-| **EarthPy** | Earth science education, raster processing | ✓ Basic |
-| **Rasterio** | Production raster processing | ✓ Via pandas |
-| **GeoPandas** | Vector data, spatial analysis | ✓ Good |
-| **xarray** | Multidimensional arrays, NetCDF | ✓✓ Excellent |
-| **Google Earth Engine** | Large-scale cloud processing | ✓✓✓ Enterprise |
+| EarthPy | Earth science education, raster processing | ✓ Basic |
+| Rasterio | Production raster processing | ✓ Via pandas |
+| GeoPandas | Vector data, spatial analysis | ✓ Good |
+| xarray | Multidimensional arrays, NetCDF | ✓✓ Excellent |
+| Google Earth Engine | Large-scale cloud processing | ✓✓✓ Enterprise |
 
 ## Workflow Example: Complete Analysis Pipeline
 
@@ -270,11 +270,11 @@ print(f"6-month forecast: {forecast.mean():.1f}°C ± {forecast.std():.1f}°C")
 
 ## Best Practices
 
-1. **Data Quality**: Always validate satellite data for clouds, gaps
-2. **Temporal Alignment**: Ensure consistent time intervals
-3. **Spatial Consistency**: Use the same geographic extent
-4. **Computational Efficiency**: Process large rasters in chunks
-5. **Version Control**: Track data versions and processing steps
+1. Data Quality: Always validate satellite data for clouds, gaps
+2. Temporal Alignment: Ensure consistent time intervals
+3. Spatial Consistency: Use the same geographic extent
+4. Computational Efficiency: Process large rasters in chunks
+5. Version Control: Track data versions and processing steps
 
 ## Conclusion
 
@@ -284,10 +284,10 @@ By applying similar methods to other Earth science datasets, researchers can unc
 
 ## Resources
 
-- **EarthPy Documentation**: https://earthpy.readthedocs.io/
-- **MODIS Data**: https://modis.gsfc.nasa.gov/
-- **Landsat**: https://landsat.gsfc.nasa.gov/
-- **Earth Data Science Textbook**: https://www.earthdatascience.org/
+- EarthPy Documentation: https://earthpy.readthedocs.io/
+- MODIS Data: https://modis.gsfc.nasa.gov/
+- Landsat: https://landsat.gsfc.nasa.gov/
+- Earth Data Science Textbook: https://www.earthdatascience.org/
 
 ## Installation
 
@@ -299,5 +299,5 @@ conda install -c conda-forge earthpy
 pip install earthpy
 ```
 
-**Note**: GDAL can be challenging to install. Consider using conda for easier dependency management.
+Note: GDAL can be challenging to install. Consider using conda for easier dependency management.
 

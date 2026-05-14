@@ -4,7 +4,7 @@ researchers analyze phenomena like temperature changes, rainfall...
 ### Time Series Analysis in Earth Science with EarthPy
 Time series analysis plays a vital role in Earth science, helping researchers analyze phenomena like temperature changes, rainfall patterns, glacier melting, and more. By studying temporal patterns in Earth science data, we can better understand environmental changes, predict future trends, and guide policy decisions.
 
-**EarthPy** is a Python package designed for working with spatial data in Earth science. It provides functionalities for handling raster and vector data, analyzing temporal patterns, and visualizing environmental changes. EarthPy integrates well with other libraries such as Pandas, Matplotlib, and NumPy, making it a versatile tool for time series analysis.
+EarthPy is a Python package designed for working with spatial data in Earth science. It provides functionalities for handling raster and vector data, analyzing temporal patterns, and visualizing environmental changes. EarthPy integrates well with other libraries such as Pandas, Matplotlib, and NumPy, making it a versatile tool for time series analysis.
 
 ### Case Study: Analyzing Land Surface Temperature Trends
 In this example, we'll analyze a time series of land surface temperature (LST) data. This type of analysis can provide insights into climate trends, urban heat islands, and agricultural conditions.
