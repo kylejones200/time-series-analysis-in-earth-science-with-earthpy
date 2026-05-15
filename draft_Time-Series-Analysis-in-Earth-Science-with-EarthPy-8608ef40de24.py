@@ -3,15 +3,11 @@
 
 
 from data_io import read_csv
-from datetime import datetime
 from statsmodels.tsa.arima.model import ARIMA
 from statsmodels.tsa.seasonal import seasonal_decompose
 import earthpy as et
-import earthpy.plot as ep
-import earthpy.spatial as es
 import logging
 import matplotlib.pyplot as plt
-import numpy as np
 import os
 import pandas as pd
 
