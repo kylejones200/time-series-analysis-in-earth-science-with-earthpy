@@ -1,3 +1,7 @@
+---
+canonical_link: "https://medium.com/p/8608ef40de24"
+---
+
 # Time Series Analysis in Earth Science with EarthPy Time series analysis plays a vital role in Earth science, helping
 researchers analyze phenomena like temperature changes, rainfall...
 
@@ -56,4 +60,4 @@ Finally, forecasting helps predict future temperature trends based on historical
 Forecasting allows us to project trends and prepare for future environmental changes.
 
 ### Conclusion
-Time series techniques work for a variety of tasks in Earth science. Using EarthPy and associated libraries, we explored and visualized LST data, analyzed seasonal patterns, detected anomalies, and forecasted future trends. These techniques provide valuable insights for understanding and responding to Earth's dynamic systems. By applying similar methods to other Earth science datasets, researchers can uncover trends and make data-driven decisions to address pressing environmental challenges. [View original.](https://medium.com/p/8608ef40de24)
+Time series techniques work for a variety of tasks in Earth science. Using EarthPy and associated libraries, we explored and visualized LST data, analyzed seasonal patterns, detected anomalies, and forecasted future trends. These techniques provide valuable insights for understanding and responding to Earth's dynamic systems. By applying similar methods to other Earth science datasets, researchers can uncover trends and make data-driven decisions to address pressing environmental challenges.
