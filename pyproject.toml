@@ -1,0 +1,22 @@
+[project]
+name = "time-series-analysis-in-earth-science-with-earthpy"
+version = "0.1.0"
+description = "Companion code for Medium article: time series analysis in earth science with earthpy"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "earthpy>=0.9.4",
+    "matplotlib>=3.10.9",
+    "pandas>=2.3.3",
+    "statsmodels>=0.14.6",
+]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
