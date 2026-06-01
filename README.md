@@ -11,14 +11,7 @@ EarthPy is a Python package designed for working with spatial data in Earth scie
 
 In this example, we'll analyze a time series of land surface temperature (LST) data. This type of analysis can provide insights into climate trends, urban heat islands, and agricultural conditions.
 
-## About
 
-Place the code for this article in this repository.
-The original article export is saved as `article.md`.
-
-## Files
-
-Add your `.ipynb`, `.py`, `.yaml`, `.js`, `.ts`, or other project files here.
 
 ## Disclaimer
 
